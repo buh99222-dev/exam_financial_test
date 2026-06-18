@@ -112,12 +112,7 @@ td,th{border-bottom:1px solid var(--line);padding:10px;text-align:left}
         <input id="studentGroup" type="text" placeholder="Например: 24-Мен-1">
       </div>
       <input id="scriptUrl" type="hidden" value="https://kjgfvxwblsiobulndnhp.supabase.co/functions/v1/submit-exam-result">
-      <div>
-        <label>Вариант</label>
-        <select id="variant">
-          <option value="random">Случайный вариант</option>
-        </select>
-      </div>
+      <input id="variant" type="hidden" value="random">
       <div>
         <button onclick="startQuiz()">Начать экзамен</button>
       </div>
@@ -177,7 +172,7 @@ td,th{border-bottom:1px solid var(--line);padding:10px;text-align:left}
   </section>
 
   <div class="footer">
-    Примечание: в каждом варианте 30 вопросов из банка 100. Пропорция сложности сохранена: 5 простых, 13 средних, 12 сложных. Результаты автоматически отправляются в Supabase. Код просмотра протокола на экране: 2026. CSV остается резервной копией.
+    Примечание: в каждом варианте 30 вопросов из банка 100. Пропорция сложности сохранена: 5 простых, 13 средних, 12 сложных. Результаты автоматически отправляются в Supabase.  CSV остается резервной копией.
   </div>
 </main>
 
